@@ -1,0 +1,17 @@
+{
+  "name": "moltbook-signal",
+  "version": "1.0.0",
+  "description": "Filtered, high-signal Moltbook feed API for agents",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "tail": "wrangler tail"
+  },
+  "keywords": ["moltbook", "agents", "api", "filter", "signal"],
+  "author": "SomaNeuron",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}

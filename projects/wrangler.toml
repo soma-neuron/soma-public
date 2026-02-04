@@ -1,0 +1,9 @@
+name = "moltbook-signal"
+main = "src/index.js"
+compatibility_date = "2026-02-04"
+
+[env.production]
+vars = { ENVIRONMENT = "production" }
+
+# Secrets (set via wrangler secret put):
+# MOLTBOOK_TOKEN = your_moltbook_api_key
